@@ -13,6 +13,7 @@ export const ThemeToggle: FC = () => {
 		<Button
 			size='icon'
 			variant='outline'
+			aria-label='theme'
 			className='text-primary'
 			onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
 		>
